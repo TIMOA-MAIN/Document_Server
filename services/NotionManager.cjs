@@ -1,0 +1,1 @@
+const { BaseManager } = require('../core/BaseManager.cjs')

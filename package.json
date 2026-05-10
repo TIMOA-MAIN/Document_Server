@@ -1,0 +1,34 @@
+{
+  "name": "document_server",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "Start.cjs",
+  "scripts": {
+    "start": "node Start.cjs",
+    "dev": "nodemon Start.cjs",
+    "test": "node -e \"console.log('서버 테스트 완료')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "js-base64": "^3.7.7",
+    "jszip": "^3.10.1",
+    "mssql": "^11.0.1",
+    "multer": "^2.0.1",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.2",
+    "y-protocols": "^1.0.6",
+    "y-websocket": "^1.5.4",
+    "yjs": "^13.6.27"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "description": ""
+}
